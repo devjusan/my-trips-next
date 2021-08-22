@@ -4,7 +4,7 @@ import Link from "next/link"
 
 type LinkWrapperProps = {
   href: string
-  children: React.ReactNode
+  children?: React.ReactNode
 }
 
 const LinkWrapper = ({ children, href }: LinkWrapperProps) => {
